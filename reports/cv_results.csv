@@ -1,0 +1,6 @@
+model_key,model_name,cv_auc_mean_sd,cv_acc_mean_sd
+rf,RandomForest,0.9990 ± 0.0004,0.9490 ± 0.0087
+extratrees,ExtraTrees,0.9968 ± 0.0006,0.7551 ± 0.0103
+logreg,LogisticRegression,0.6905 ± 0.0053,0.5792 ± 0.0001
+svm_rbf,SVM-RBF,0.6568 ± 0.0055,0.7796 ± 0.0047
+dtree,DecisionTree,0.6311 ± 0.0034,0.6889 ± 0.0029

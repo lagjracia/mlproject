@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: malware-static-ml-api
+    env: docker
+    plan: free
+    autoDeploy: true

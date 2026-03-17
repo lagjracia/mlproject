@@ -1,0 +1,75 @@
+{
+  "model_name": "RandomForest",
+  "target_col": "Label",
+  "threshold": 0.5,
+  "random_state": 42,
+  "train_rows": 40144,
+  "test_rows": 10037,
+  "feature_columns": [
+    "BaseOfCode",
+    "BaseOfData",
+    "Characteristics",
+    "DllCharacteristics",
+    "Entropy",
+    "FileAlignment",
+    "FirstSeenDate",
+    "Identify",
+    "ImageBase",
+    "ImportedDlls",
+    "ImportedSymbols",
+    "Machine",
+    "Magic",
+    "NumberOfRvaAndSizes",
+    "NumberOfSections",
+    "NumberOfSymbols",
+    "PE_TYPE",
+    "PointerToSymbolTable",
+    "SHA1",
+    "Size",
+    "SizeOfCode",
+    "SizeOfHeaders",
+    "SizeOfImage",
+    "SizeOfInitializedData",
+    "SizeOfOptionalHeader",
+    "SizeOfUninitializedData",
+    "TimeDateStamp"
+  ],
+  "model_params": {
+    "bootstrap": true,
+    "ccp_alpha": 0.0,
+    "class_weight": "balanced_subsample",
+    "criterion": "gini",
+    "max_depth": null,
+    "max_features": "log2",
+    "max_leaf_nodes": null,
+    "max_samples": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "n_estimators": 600,
+    "n_jobs": 1,
+    "oob_score": false,
+    "random_state": 42,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "test_metrics": {
+    "test_auc": 0.9989826958515137,
+    "test_accuracy": 0.9613430307860915,
+    "test_precision": 0.9385610347615198,
+    "test_recall": 0.9986237742989851,
+    "test_f1": 0.9676612768794799,
+    "confusion_matrix": [
+      [
+        3844,
+        380
+      ],
+      [
+        8,
+        5805
+      ]
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+
+# Data
+data/raw/
+data/processed/
+
+# Artifacts
+artifacts/*.joblib
+artifacts/*.pkl
+
+# OS
+.DS_Store

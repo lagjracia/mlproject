@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "malware-static-ml"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "joblib",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
