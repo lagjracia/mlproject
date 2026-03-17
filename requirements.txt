@@ -6,6 +6,7 @@ fastapi
 uvicorn[standard]
 python-multipart
 streamlit
+matplotlib
 pytest
 ruff
 httpx

@@ -4,3 +4,11 @@ services:
     env: docker
     plan: free
     autoDeploy: true
+    dockerfilePath: ./Dockerfile
+
+  - type: web
+    name: malware-static-ml-ui
+    env: docker
+    plan: free
+    autoDeploy: true
+    dockerfilePath: ./Dockerfile.streamlit
