@@ -349,7 +349,7 @@ def plot_probability_histogram(df: pd.DataFrame):
 
 def plot_confusion_matrix(cm: np.ndarray):
     fig, ax = plt.subplots(figsize=(4.4, 3.8))
-    im = ax.imshow(cm)
+    ax.imshow(cm)
     ax.set_xticks([0, 1], labels=["Pred Goodware", "Pred Malware"])
     ax.set_yticks([0, 1], labels=["True Goodware", "True Malware"])
 
